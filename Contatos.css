@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Kdam+Thmor+Pro');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #D21617;
+}
+
+#Logo {
+    width: 150px;
+    height: auto;
+}
+
+#Banner {
+    background-image: url('https://pbs.twimg.com/media/FBwJWeQXIAItfyH.jpg:large');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.email {
+    margin: 180px 150px 0 200px;
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    background-position: 50%;
+    cursor: pointer;
+    display: flex;  
+    background-image: url('https://cdn.pixabay.com/photo/2012/04/15/17/55/note-34686_960_720.png');
+}
+
+
+.telefone{
+    margin: -100px 0 0 1070px;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: 50% 50%;
+    cursor: pointer;
+    display: flex;  
+    background-image: url('https://cdn.pixabay.com/photo/2014/04/02/10/56/telephone-304968_960_720.png');
+}
+
+#tel {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-left: 1070px;
+    margin-top: -10px;
+}
+
+#titulo {
+    margin-left: 350px;
+    margin-top: 50px;
+    font-size: 60px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #fff;
+}
+
+#texto {
+    width: 100%;
+    height: 90px;
+    margin-left: 0px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Text-email {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 150px;
+    
+}
+
+#text-tel {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 1030px;
+    margin-top: -20px;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navegation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media(max-width: 768px){
+
+    .footer-navegation {
+        display: block;
+        
+    }
+    nav {
+        display: none;
+    }
+
+    #Banner {
+        background-position: 40%;
+    }
+
+    #titulo {
+        width: 50%;
+        margin: 20px 0 0 140px;
+        font-size: 40px;
+    }
+
+    #texto {
+        width: 80%;
+        height: 70%;
+        margin: 100px 0 0 50px;
+        font-size: 25px;
+    }
+
+    .telefone {
+        width: 110px;
+        height: 110px;
+        margin: 350px 30px -150px 150px;
+        background-position: 50%;
+    }
+
+    .email {
+        margin: 50px 30px 60px 120px;
+        background-position: 50%;
+    }
+
+    p {
+        margin-left: 160px;
+        margin-top: -450px;
+    }
+
+    #Text-email {
+        margin-left: 60px;
+        margin-top: -450px;
+    }
+
+    #tel {
+        margin: 450px 0 0 150px;
+    }
+    #text-tel {
+        margin: 430px 0 0 100px;   
+    }
+}
